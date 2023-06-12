@@ -9,6 +9,4 @@ lean_lib «Mcm» {
   -- add library configuration options here
 }
 
-@[default_target]
-lean_exe «mcm» {
-}
+require mathlib from git "https://github.com/leanprover-community/mathlib4.git"
